@@ -1,0 +1,129 @@
+.column {
+    width: 100%;
+  }
+  
+  @media (min-width: 320px) {
+    .column {
+      width: 50%;
+    }
+  }
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+font-style: oblique;
+}
+nav{
+    background:#0082e6;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: white;
+    font-size: 17px; /* allt ovanför är för min navigationsbar*/ 
+    text-transform: uppercase; 
+}
+a.active,a:hover{
+    background: #1b9bff;
+}
+.box{
+   margin: 10px;
+    width: 500px;
+    height: 100px;
+  
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.box2{
+   margin: 10px;
+    width: 500px;
+    height: 100px;
+   
+    padding-left: 20px;
+    padding-right: 20px;
+}
+p{
+    margin: 10px;
+}
+img{
+border-radius: 50%;
+max-width: 100%;
+height: auto;
+}
+a{
+    color: blue;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+a:hover{
+    color: red;
+}
+h1{
+    color: lightsalmon;
+    font-style: oblique;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 60px;
+    padding-right: 80px;
+}
+h2{
+    color: lightsalmon; /* Temat för mina rubriker*/
+    font-style: oblique;
+    margin-top: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 50px;
+}
+p{
+    font-style: oblique;
+    padding-left: 10px;
+}
+div{
+    font-style: oblique;
+}
+cite{
+    padding-top: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+footer{
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 100px;
+    padding-inline-end: 100px;
+    background-color: #0082e6;
+color: white;    
+}
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+}
+
+
+
